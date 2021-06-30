@@ -5,13 +5,13 @@ import Search from "./Search";
 function Navigation() {
   return (
     <header
-      className="fixed w-full h-16 bg-darkGray text-gray-400 border-b text-md"
+      className="fixed w-full h-20 bg-darkGray text-gray-400 border-b text-md top-0"
       style={{ borderColor: "#252525" }}
     >
       <nav>
         <div>
-          <div className="mx-40">
-            <ul className="flex h-16 items-center">
+          <div className="mx-24">
+            <ul className="flex h-20 items-center">
               <li className="flex-shrink-0 text-3xl font-thin	tracking-widest hover:text-red-400 text-white">
                 <Link to="/home">PLAYA</Link>
               </li>

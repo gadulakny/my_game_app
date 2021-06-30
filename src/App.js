@@ -11,7 +11,7 @@ import EvaluationPage from "./Routes/EvaluationPage";
 function App() {
   return (
     <div id="app" className="w-full h-full">
-      <HashRouter>
+      <HashRouter className="relative">
         <Navigation />
         <Route path="/home" component={Home} />
         <Route path="/gamedetail/:id" component={GamePage} />
